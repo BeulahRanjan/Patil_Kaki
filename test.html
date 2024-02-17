@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eye-Catching Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=General+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'General Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      /* Grey color for text */
+    }
+
+    section {
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    
+    p {
+      font-size: 1.1rem;
+    }
+  
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li  {
+  display: block;
+  color: rgb(209, 187, 59);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  font-weight: bolder;
+}
+
+
+
+    /* Hero section styles */
+    .hero-section {
+      /* background-color: rgb(22, 72, 22);       */
+      height: 75vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      background-repeat: repeat-y;
+    }
+
+    .img1 {
+      position: absolute;
+      top: 0;
+      left: 0%;
+      width: 100%;
+      height: auto;
+      opacity:0.95;
+      filter: brightness(0.3);
+      /* transform: rotate(180deg); */
+    }
+
+
+    .img2{
+      position:absolute;
+      z-index:5;
+      width:54%;
+      height: 90%;
+      left:45%;
+      border-radius: 100%;
+      top:70px;
+      border:2px solid black;
+
+    }
+    /* About Founder section styles */
+    .founder-section {
+      background-color: #f2e89a;
+      /* Grey color for founder section */
+    }
+
+    .founder-section img {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      margin-bottom: 20px;
+    }
+
+    /* Why Choose Us section styles */
+    .why-choose-section {
+      background-color: #d2dbd2;
+      /* Sage Green color for why choose us section */
+    }
+
+
+    
+
+        /* Countdown Timer section styles */
+    .countdown-section {
+      background-color: #aae5ad;
+      height:85vh;
+      /* White color for countdown timer section */
+    }
+
+
+  
+    #countdown {
+      font-size: 2.5rem;
+      margin-top: 20px;
+    }
+
+    /* Call to Action section styles */
+  
+    .cta-section button {
+      padding: 15px 40px;
+      font-size: 1.2rem;
+      border: 2px solid pink;
+      background-color:transparent;
+      /* Grey color for button */
+      z-index: 2;
+      color: pink;
+      /* Grey color for text */
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      opacity: 1;
+      filter: brightness(100%);
+    }
+
+    .cta-section button:hover {
+      background-color: #f3f4f8;
+      /* Darker shade of grey for hover effect */
+    }
+
+    /* Slide-in Form styles */
+    .slide-form {
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      color: #333;
+      padding: 40px 20px;
+      transition: bottom 0.5s ease;
+      z-index: 999;
+    }
+
+    .slide-form input[type="text"],
+    .slide-form input[type="email"],
+    .slide-form button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .slide-form input[type="text"],
+    .slide-form input[type="email"] {
+      background-color: #f5f5f5;
+      /* Light grey background color for input fields */
+    }
+
+    .slide-form button {
+      background-color: #ffcc80;
+      /* Royal Yellow color for button */
+      color: #333;
+      /* Grey color for text */
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .slide-form button:hover {
+      background-color: #ffb74d;
+      /* Darker shade of royal yellow for hover effect */
+    }
+  </style>
+</head>
+
+<body>
+  
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="content">
+      <div class="container">
+
+        <img class="img1"
+          src="https://flippindelicious.com/wp-content/uploads/2023/06/27-gluten-free-indian-recipes-fb.jpg">
+
+          <nav style="position: absolute ;top:0;left:5%;background-color:transparent;z-index: 2;" class="navbar">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact</li>
+              
+              <li style="position: absolute ;top:0;left:300%;">Login</li>
+              <li style="position: absolute ;top:0;left:320%;">Signup/Register</li>
+            </ul>
+          </nav>
+
+        <h3
+          style="position:absolute;top:30%;width:500px; left:5%;color:rgb(243, 223, 236);font-size: 35px;">
+          Welcome to Darsheel Services!!<br><br><p style="font-size: 20px;;">Your ultimate destination for culinary inspiration and gastronomic adventures!<br><br>
+          Unleash your creativity in the kitchen and impress your family and friends with culinary creations that are as beautiful as 
+          they are delicious.</p><br><br><br>
+</h3>
+
+          <img class="img2"
+            src="https://www.vikhrolicucina.com/uploads/stories/1674223639_samosasingaraindianfriedbakedpastrywithsavoryfillingspicedpotatoesonionpeas.jpg">
+      </div>
+      <div>
+        <!-- <h1>Inspire Innovation</h1>
+    <p>Explore boundless creativity with Darsheel.</p> -->
+  </section>
+
+  <!-- About Founder Section -->
+  <section class="founder-section">
+    <h2 style="position:absolute ;font-size:30px;left:24.5%;color: black;">Discover<br>OUR STORY<br></h2> 
+    <!-- <p>Darsheel is dedicated to revolutionizing the industry with his innovative ideas.</p> -->
+    <p style="width:700px;position:relative;left:5%;top: auto;font-size: 15px;;"><br><br>
+      <br><br><br><br>Welcome to Darsheel Services, where passion for food meets the warmth of hospitality. Our journey began with a simple 
+      yet profound 
+      desire – to create a haven where every meal tells a story, every dish is a masterpiece, and every guest feels like family.
+      Founded on the belief that dining is not just about sustenance but an experience that engages all the senses, Darsheel Services 
+      is a culmination of years of culinary exploration, innovation, and unwavering dedication to excellence.<br><br>
+      Inspired by the rich tapestry of flavors from around the world and driven by a relentless pursuit of perfection, we set out to 
+      redefine the dining landscape in our community. From the rustic charm of traditional recipes to the bold creativity of contemporary
+       cuisine, our menu is a celebration of diversity, authenticity, and ingenuity.<br><br>
+      Behind every dish we serve lies a labor of love – from sourcing the freshest ingredients to crafting each plate with precision and 
+      artistry. Our chefs are not just culinary masters but storytellers, weaving narratives of tradition, innovation, and passion with 
+      every culinary creation.<br><br><br>
+      Bon appétit!</p>
+
+      <img style="position:absolute;left:65%;top:112%;height:37%;width:30%;border-radius: 10%;" src="https://i.pinimg.com/236x/c8/a7/c3/c8a7c3a22a8f1e23c11bfe498146f2d6.jpg"> 
+      <img style="position:absolute;left:70%;top:152%;height:37%;width:20%;border-radius: 10%;" src="https://i.pinimg.com/564x/52/1a/01/521a01d28f8bc09a8042ee20a0f6451c.jpg">
+    </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-section">
+    <h2 style="position: absolute;top:198%;right:16%;color:rgb(86,155,86);font-size:40px;">Why Choose Us?</h2><br>
+    <p style="position: relative;">
+      <ul style="position: relative;width:600px; font-size: 15px;left:48%;color:rgb(86, 155, 86);font-weight: bolder;">
+      <br><br><br><li>We meticulously source only the freshest, finest quality ingredients to ensure every 
+       bursts with flavor and nutrition.</li>
+      <br>
+       <li>Our expert chefs
+       infuse creativity into every dish, crafting culinary masterpieces that tantalize taste buds and leave you craving for more.</li>
+       <br>
+
+       <li>We understand that every palate is unique. That's why we offer extensive customization options,
+      allowing you to tailor your dining experience to your preferences. </li>
+      <br>
+
+      <li>Our dedicated team goes above and 
+       to ensure every guest feels valued and appreciated. From seamless ordering processes to prompt delivery, we prioritize your
+        satisfaction at every step.</li>
+        <br>
+
+        <li>With eco-friendly 
+       and responsible sourcing, we strive to minimize our environmental footprint while delivering exceptional culinary experiences.</li>
+      </ul>
+    </p>
+    <img style="position: absolute;left:7%;top:195%;height:75%;width:35%;border-radius:50%;;" 
+    src="https://i.pinimg.com/564x/73/38/20/7338207db775a731992637573ec538dd.jpg">
+  </section>
+
+  <!-- Countdown Timer Section -->
+  <section class="countdown-section">
+  <h2 style="position: absolute;color:#89658d;font-size:50px;left:0%;top:300%;right:50%;">Hurry Up!<br>Limited Time Offer</h2>
+    <p style="position:absolute;color:#89658d;font-size:50px;left:0%;top:315%;right:50%;">Sign up now <br>and get exclusive discounts!</p>
+    <div style="position:absolute; color: #efdeea;top:340%;right:70%;padding:7px;border-radius:10%;background-color:#a48ba7;
+    z-index: 2;border:10px solid #d6ced4;" id="countdown"></div>
+    <img style="position:absolute;width: 350px; height: 350px; 
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(180deg);left:71%;top:275%;" class="triangle" 
+    src="https://i.pinimg.com/236x/d4/43/42/d44342c2fb7f3a66366801889484da02.jpg">
+    <img style="position:absolute; width: 350px; height: 350px;    
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(0deg);left:84.5%;;top:275%;" class="triangle"
+    src="https://i.pinimg.com/236x/b3/a0/f9/b3a0f96e540517d7caf63a503528a40b.jpg">
+    <img style="position:absolute;width: 350px; height: 350px;    
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(180deg);left:85%;;top:329.5%;" class="triangle"
+    src="https://i.pinimg.com/236x/58/61/88/586188963c134688ade930bfd7e96a30.jpg">
+    <img style="position:absolute;width: 350px; height: 350px;    
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(0deg);left:71.2%;top:329%;" class="triangle"
+    src="https://i.pinimg.com/236x/81/7e/7d/817e7dd5fe5c623f5e55621d0c9dbb38.jpg">
+    <img style="position:absolute;width: 350px; height: 350px;    
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(0deg);left:57.5%;top:275%;" class="triangle"
+    src="https://i.pinimg.com/564x/b9/ad/6b/b9ad6b8258591ea5d1e7d13773d1e222.jpg">
+    <img style="position:absolute;width: 350px; height: 350px;    
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(180deg);left:57.5%;top:329.5%;" class="triangle"
+    src="https://i.pinimg.com/236x/93/3b/47/933b4753b4e6e5899493c3cb5eb595b6.jpg">
+    <img style="position:absolute;width: 350px; height: 350px;    
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(180deg);left:43.8%;top:275.5%;" class="triangle"
+    src="https://i.pinimg.com/564x/33/d3/11/33d311e31be4edb6f6cff10012237855.jpg">
+    <img style="position:absolute;width: 350px; height: 350px;    
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);transform: rotate(0deg);left:43.9%;top:329.2%;" class="triangle"
+    src="https://i.pinimg.com/236x/f8/e2/72/f8e27280769c35c16f72acf231361bf4.jpg">
+    
+    
+
+      
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta-section">
+    <img style="position: absolute;left:0;top:384%; filter:brightness(0.3);width:100%;height:40vh;;" src="https://d4t7t8y8xqo0t.cloudfront.net/resized/750X436/eazytrendz%2F3070%2Ftrend20210218124824.jpg">
+<button onclick="showForm()">Sign Up Now</button>
+  </section>
+
+  <!-- Slide-in Form -->
+  <div class="slide-form" id="slideForm">
+    <h2>Stay Updated!</h2>
+    <p>Enter your phone number and email address to receive our latest updates.</p>
+    <input type="text" id="phone" placeholder="Phone Number">
+    <input type="email" id="email" placeholder="Email Address">
+    <button  style="
+      background-color:rgb(247, 232, 241); 
+      color: black; 
+      border: 2px solid black; " onclick="submitForm()">Submit</button>
+  </div>
+
+  <script>
+    // JavaScript for Countdown Timer
+    const countdownElement = document.getElementById('countdown');
+    let countdownTime = 10 * 60; // 10 minutes in seconds
+
+    function updateCountdown() {
+      const minutes = Math.floor(countdownTime / 60);
+      const seconds = countdownTime % 60;
+      countdownElement.innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+      countdownTime--;
+      if (countdownTime < 0) {
+        clearInterval(countdownInterval);
+        countdownElement.innerText = 'Time\'s up!';
+      }
+    }
+
+    const countdownInterval = setInterval(updateCountdown, 1000);
+
+    // JavaScript for Slide-in Form
+    function showForm() {
+      const slideForm = document.getElementById('slideForm');
+      slideForm.style.bottom = '0';
+    }
+
+    function submitForm() {
+      const phone = document.getElementById('phone').value;
+      const email = document.getElementById('email').value;
+      // Perform form submission
+      alert(`You have successfully registered with Phone: ${phone} and Email: ${email}`);
+      // Close the form
+      const slideForm = document.getElementById('slideForm');
+      slideForm.style.bottom = '-100%';
+    }
+  </script>
+</body>
+
+</html>
